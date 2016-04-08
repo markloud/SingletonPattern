@@ -39,6 +39,11 @@ namespace DoFactory.GangOfFour.Singleton.Structural
         {
         }
 
+        //public static Singleton Instance
+        //{
+        //    get { return _instance ?? (_instance = new Singleton()); }
+        //}
+
         public static Singleton Instance()
         {
             // Uses lazy initialization.
